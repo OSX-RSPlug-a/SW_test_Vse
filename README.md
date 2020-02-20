@@ -2,10 +2,10 @@
 
 Job interview test - made in 3h;
 
-+ Projeto
 
 - Projeto StarWars cards info
-    
+
+
 
 ![alt text](https://github.com/OSX-RSPlug-a/SW_test_Vse/blob/master/img/Screenshot_2020-02-20_18-19-11.png)
 
