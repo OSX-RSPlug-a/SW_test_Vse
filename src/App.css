@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust:none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 92%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  background: #000;  
+  background: -webkit-linear-gradient(to bottom right,#000, tomato) no-repeat;  
+  background: linear-gradient(to bottom right, #000, tomato) no-repeat; 
+  border-top: 5px solid #435757;
+  opacity: 0.8;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body, input, button {
+  font-family: Roboto, sans-serif;
+}
+
+#app {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 1000px) {
+    #app {
+      flex-direction: column;
+    }
+  
+    #app main {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+  
+    #app aside {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 450px ) {
+    html, body, #app, #root {
+        height: 400%;
+    }    
+  }
+
+  @-ms-viewport{
+    width: device-width;
+  }
